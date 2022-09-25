@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-top: 250px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.child-container{
+    height: 80px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    position:absolute;
+    bottom:0px;
+    right: 0px;
+        
+}
