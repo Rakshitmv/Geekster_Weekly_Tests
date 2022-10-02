@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.employee-page{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    justify-content: center;
+    position: relative;
+    
+}
+.title{
+    width: 100vw;
+    height: 20px;
+    text-align: center;
+    /* justify-content: center; */
+
+}
+
+.main-container{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    
+}
+
+.employee-card1{
+    display: flex;
+    width: 350px;
+    height: 400px;
+    border: 2px solid black;
+    
+}
+img{
+    width: 350px;
+    height: 300px;
+}
+
+p{
+    font-weight: bold;
+}
+
+.employee-card2{
+    display: flex;
+    width: 350px;
+    height: 400px;
+    border: 2px solid black;
+}
