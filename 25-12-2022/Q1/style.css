@@ -1,0 +1,125 @@
+ * {
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     width: 100vw;
+ }
+
+ #header {
+     padding: 10px 30px;
+     height: 60px;
+     display: flex;
+     background-color: white;
+     box-shadow: 0px 0px 12px 1px black;
+     align-items: center;
+ }
+
+ #header_info {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 64px;
+     width: 386px;
+ }
+
+ #header_info h4:hover,
+ #icons:hover {
+     cursor: pointer;
+     color: orange;
+ }
+
+ #icons {
+     display: flex;
+     justify-content: space-between;
+     width: 84px;
+     margin-left: 474px;
+ }
+
+ #categories_containers {
+     display: flex;
+     flex-direction: column;
+     padding: 0px 26px;
+     background-color: rgba(112, 128, 144, 0.356);
+     height: 360px;
+ }
+
+ #sub_heading {
+     text-align: center;
+     padding: 30px;
+ }
+
+ .categories_name img {
+     height: 180px;
+     width: 190px;
+     border-radius: 8px;
+ }
+
+ .categories_name img:hover {
+     width: 210px;
+     height: 210px;
+     box-shadow: 0px 0px 12px 0px black;
+     cursor: pointer;
+ }
+
+ #span {
+     color: orangered;
+ }
+
+ #categories_list {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .categories_name {
+     height: 200px;
+     width: 190px;
+ }
+
+ .categories_name h3 {
+     text-align: center;
+     margin-top: 6px;
+     color: rgb(245, 17, 9);
+ }
+
+ #content_containers {
+     background-color: aliceblue;
+     display: flex;
+     justify-content: space-between;
+     padding: 30px 20px;
+     box-shadow: 0px 0px 12px -1px black;
+ }
+
+ #content_container {
+     width: 490px;
+     height: 260px;
+     display: flex;
+     background-color: orange;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     border-radius: 25px;
+ }
+
+ #content_container img {
+     width: 200px;
+     height: 200px;
+     border-radius: 25%;
+ }
+
+ #content_container img:hover {
+     width: 210px;
+     height: 210px;
+     box-shadow: 0px 0px 12px 0px black;
+     cursor: pointer;
+ }
+
+ .content_name h2 {
+     font-size: 12px;
+     margin-bottom: 10px;
+ }
+
+ .content_name h1 {
+     font-size: 22px;
+ }
